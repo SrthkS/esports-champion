@@ -48,7 +48,7 @@ public class GameControl : MonoBehaviour
         getReadyText.gameObject.SetActive(false);
 
         //initialize vars
-        targetsAmount = 50;
+        targetsAmount = 49;
         score = 0;
         shotsFired = 0;
         targetsHit = 0;
@@ -101,7 +101,7 @@ public class GameControl : MonoBehaviour
         targetsHitText.text = "Targets Hit: " + targetsHit + "/" + targetsAmount;
         shotsFiredText.text = "Shots Fired: " + shotsFired;
         accuracy = targetsHit/shotsFired * 100f;
-        accuracyText.text = "Accuracy: " + accuracy.ToString("N2") + " %";
+        accuracyText.text = "Accuracy: " + accuracy.ToString("N2") + "%";
 
 
     }
