@@ -48,7 +48,7 @@ public class GameControl : MonoBehaviour
         getReadyText.gameObject.SetActive(false);
 
         //initialize vars
-        targetsAmount = 49;
+        targetsAmount = 50;
         score = 0;
         shotsFired = 0;
         targetsHit = 0;
@@ -67,7 +67,7 @@ public class GameControl : MonoBehaviour
     }
 
     private IEnumerator GetReady(){
-        for(int i= 3; i>=1; i--){
+        for(int i= 3; i>0; i--){
             getReadyText.text = "Ready?!\n" + i.ToString();
             yield return new WaitForSeconds(1f);
 
@@ -82,13 +82,14 @@ public class GameControl : MonoBehaviour
     }
 
     private IEnumerator SpawnTargets(){
+
         getReadyText.gameObject.SetActive(false);
-        score = 0;
-        shotsFired = 0;
+        score=0;
+        shotsFired=0;
         targetsHit=0;
         accuracy=0;
 
-        for(int i = targetsAmount; i>=0; i--){
+        for(int i = targetsAmount; i>0; i--){
             targetRandomPosition = new Vector2(Random.Range(-7f,7f), Random.Range(-4f,4f));
             Instantiate(target, targetRandomPosition, Quaternion.identity);
 

@@ -7,7 +7,7 @@ public class Target : MonoBehaviour
 {
     //starts before first frame
 
-    void start()
+    void Start()
     {
         Destroy(gameObject, 1f);
     }
