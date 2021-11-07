@@ -5,7 +5,46 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Start Menu.unity
+    guid: ac0c9e2faa783e34da789e25704f87e0
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 790acd1fef8c8224eb1bdc5ef41079a4
+  - enabled: 1
+    path: Assets/Scenes/Main Screen.unity
+    guid: 9ff0d13180d3f2b43ac6fc1b890e2001
+  - enabled: 1
+    path: Assets/Scenes/City Tourney.unity
+    guid: f859e0489fe79854a96c24d1b41166b5
+  - enabled: 1
+    path: Assets/Scenes/State Tourney.unity
+    guid: 6f8fc879f228d414b89d59914dae5f26
+  - enabled: 1
+    path: Assets/Scenes/National Tourney.unity
+    guid: 497117649d533d344aea96a5300c48da
+  - enabled: 1
+    path: Assets/Scenes/Quick Shot.unity
+    guid: 8d3570b1bda9257449bef4750be87f51
+  - enabled: 1
+    path: Assets/Scenes/Precision Shot.unity
+    guid: 481930c5b7d2a204aaf04d813e3603c0
+  - enabled: 1
+    path: Assets/Scenes/Strafe Shot.unity
+    guid: 5847c5145dc436f4c8680ff280846d2c
+  - enabled: 1
+    path: Assets/Scenes/Twitter.unity
+    guid: d654f3740558f1d459f452535a3da529
+  - enabled: 1
+    path: Assets/Scenes/Twitch.unity
+    guid: a32fec8ac272f3c4b8283fb2c8dfa61e
+  - enabled: 1
+    path: Assets/Scenes/YouTube.unity
+    guid: 078752272e89c3049a731dae00926079
+  - enabled: 1
+    path: Assets/Scenes/Final Screen.unity
+    guid: 5865580e277e6974282829ff453b94c1
   m_configObjects: {}
