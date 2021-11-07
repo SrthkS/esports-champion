@@ -8,6 +8,8 @@ public class SceneLoader : MonoBehaviour
     public Animator transitionL;
     public Animator transitionR;
     public Animator transitionTL;
+    public Animator trainingMenuLoader;
+    public Animator influenceMenuLoader;
     public void LoadStartMenu(){
         StartCoroutine(LoadScreen("Start Menu"));
     }
@@ -38,14 +40,23 @@ public class SceneLoader : MonoBehaviour
     public void LoadTwitter(){
         StartCoroutine(LoadScreen("Twitter"));
     }
-    public void LoadCityTourney(){
-        StartCoroutine(LoadScreen("City Tourney"));
+    public void LoadTourneys(){
+        StartCoroutine(LoadScreen("Tourneys"));
     }
-    public void LoadStateTourney(){
-        StartCoroutine(LoadScreen("State Tourney"));
+    public void QuitGame(){
+        Application.Quit();
     }
-    public void LoadNationalTourney(){
-        StartCoroutine(LoadScreen("National Tourney"));
+    public void LoadTrainingMenu(){
+        trainingMenuLoader.SetTrigger("LoadTraining");
+    }
+    public void CloseTrainingMenu(){
+        trainingMenuLoader.SetTrigger("CloseTraining");
+    }
+    public void LoadInfluenceMenu(){
+        influenceMenuLoader.SetTrigger("LoadInfluence");
+    }
+    public void CloseInfluenceMenu(){
+        influenceMenuLoader.SetTrigger("CloseInfluence");
     }
     IEnumerator LoadScreen(string SceneName){
         transitionL.SetTrigger("Start");

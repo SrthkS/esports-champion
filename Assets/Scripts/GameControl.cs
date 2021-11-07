@@ -106,9 +106,10 @@ public class GameControl : MonoBehaviour
 
     }
     public void StartGetReadyCoroutine(){
+
         resultsPanel.SetActive(false);
         getReadyText.gameObject.SetActive(true);
-        StartCoroutine("Get Ready");
+        StartCoroutine("GetReady");
 
 
     }    

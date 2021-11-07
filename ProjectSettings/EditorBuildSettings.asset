@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Screen.unity
     guid: 9ff0d13180d3f2b43ac6fc1b890e2001
   - enabled: 1
-    path: Assets/Scenes/City Tourney.unity
+    path: Assets/Scenes/Tourneys.unity
     guid: f859e0489fe79854a96c24d1b41166b5
   - enabled: 1
     path: Assets/Scenes/State Tourney.unity
