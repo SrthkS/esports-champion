@@ -20,12 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tourneys.unity
     guid: f859e0489fe79854a96c24d1b41166b5
-  - enabled: 1
-    path: Assets/Scenes/State Tourney.unity
-    guid: 6f8fc879f228d414b89d59914dae5f26
-  - enabled: 1
-    path: Assets/Scenes/National Tourney.unity
-    guid: 497117649d533d344aea96a5300c48da
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Quick Shot.unity
     guid: 8d3570b1bda9257449bef4750be87f51

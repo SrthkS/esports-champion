@@ -10,6 +10,8 @@ public class SceneLoader : MonoBehaviour
     public Animator transitionTL;
     public Animator trainingMenuLoader;
     public Animator influenceMenuLoader;
+    public Player player;
+    public GameObject saveFailPopup;
     public void LoadStartMenu(){
         StartCoroutine(LoadScreen("Start Menu"));
     }
@@ -46,6 +48,11 @@ public class SceneLoader : MonoBehaviour
     public void QuitGame(){
         Application.Quit();
     }
+    public void ResetGame(){
+        player.skillPoints = 0;
+        player.influencePoints = 0;
+        player.money = 0;
+    }
     public void LoadTrainingMenu(){
         trainingMenuLoader.SetTrigger("LoadTraining");
     }
@@ -57,6 +64,12 @@ public class SceneLoader : MonoBehaviour
     }
     public void CloseInfluenceMenu(){
         influenceMenuLoader.SetTrigger("CloseInfluence");
+    }
+    public void PopupSaveFail(){
+        saveFailPopup.SetActive(true);
+    }
+    public void CloseSaveFail(){
+        saveFailPopup.SetActive(false);
     }
     IEnumerator LoadScreen(string SceneName){
         transitionL.SetTrigger("Start");

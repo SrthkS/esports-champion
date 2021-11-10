@@ -47,6 +47,10 @@ MonoBehaviour:
   transitionL: {fileID: 7842009549336462199}
   transitionR: {fileID: 7842009548310986289}
   transitionTL: {fileID: 7842009547845381319}
+  trainingMenuLoader: {fileID: 0}
+  influenceMenuLoader: {fileID: 0}
+  player: {fileID: 8098164945350914717, guid: 2ac195c101351534e989137641b86935, type: 3}
+  saveFailPopup: {fileID: 0}
 --- !u!1 &7842009547845381314
 GameObject:
   m_ObjectHideFlags: 0
