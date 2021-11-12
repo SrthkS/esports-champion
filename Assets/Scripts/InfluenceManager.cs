@@ -70,8 +70,8 @@ public class InfluenceManager : MonoBehaviour
         player.SavePlayer();
     }
     IEnumerator ActivateYoutube(){
+        player.AddInfluence(player.influencePoints/10);
         while(remainingYoutube>0f){
-            player.AddInfluence(player.influencePoints/10);
             youtubeCooldownTime.gameObject.SetActive(true);
             youtubeButton.interactable = false;
             youtubeCooldownTime.text = remainingYoutube.ToString() + "s";

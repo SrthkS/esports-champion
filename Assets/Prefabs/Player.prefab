@@ -43,9 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2b060c08c592d247b52671244d286e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  influencePoints: 4000
-  skillPoints: 5000
+  influencePoints: 1419
+  skillPoints: 128
   money: 2000
   skillText: {fileID: 5710322620868892925, guid: 1de96312b7bf6774e927d34ca1440326, type: 3}
   influenceText: {fileID: 1258745865580525398, guid: 883fd06664de2804fa50a2638ffb1ec4, type: 3}
   moneyText: {fileID: 6265484996480566763, guid: 367c1fac89a6f60488c5de9a20ba5f68, type: 3}
+  nationalWins: 0
+  sceneLoader: {fileID: 3310248412581631214, guid: c8f760d974804564ab000a33fbf83993, type: 3}
