@@ -10,3 +10,5 @@ Twitch and YouTube also give you money, which you can use to participate in tour
 This is the core gameplay loop which you repeat until you hit a certain threshold in influence points, skill points, and tournament wins, after which your dreams are finally 
 fulfilled and you join Team Liquid.
 
+(Just in case the files on this repository do not work)
+https://drive.google.com/drive/folders/174leGFSP3ESWqKRYieUss-g6O1RMtasy?usp=sharing
