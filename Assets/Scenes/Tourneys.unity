@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &46989151
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,6 +203,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46989151}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
 --- !u!1001 &81313182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -213,10 +216,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneLoader
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 7842009547576707929, guid: c8f760d974804564ab000a33fbf83993, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
     - target: {fileID: 7842009547576707935, guid: c8f760d974804564ab000a33fbf83993, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -263,6 +269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8f760d974804564ab000a33fbf83993, type: 3}
+<<<<<<< HEAD
 --- !u!114 &81313183 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3310248412581631214, guid: c8f760d974804564ab000a33fbf83993, type: 3}
@@ -612,6 +619,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
 --- !u!1 &1315525858
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,6 +704,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!224 &1696098615 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1435261990701087527, guid: 821a0c32d2d195045852b461deb42ca3, type: 3}
@@ -1486,3 +1496,5 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e3cbfc35cee89d4b94e149b28ffe20c, type: 3}
+=======
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57

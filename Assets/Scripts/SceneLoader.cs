@@ -10,7 +10,11 @@ public class SceneLoader : MonoBehaviour
     public Animator transitionTL;
     public Animator trainingMenuLoader;
     public Animator influenceMenuLoader;
+<<<<<<< HEAD
     [SerializeField] public Player player;
+=======
+    public Player player;
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
     public GameObject saveFailPopup;
     public void LoadStartMenu(){
         StartCoroutine(LoadScreen("Start Menu"));
@@ -25,11 +29,21 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(LoadScreen("Final Screen"));
     }
     public void LoadQuickShot(){
+<<<<<<< HEAD
         StartCoroutine(LoadScreen("Quick_Shot 1"));
+=======
+        StartCoroutine(LoadScreen("Quick Shot"));
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
     }
     public void LoadPrecisionShot(){
         StartCoroutine(LoadScreen("Precision Shot"));
     }
+<<<<<<< HEAD
+=======
+    public void LoadStrafeShot(){
+        StartCoroutine(LoadScreen("Strafe Shot"));
+    }
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
     public void LoadTwitch(){
         StartCoroutine(LoadScreen("Twitch"));
     }

@@ -3,6 +3,7 @@ guid: ca2928f63192a1b4697b2dddd617e29f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
+<<<<<<< HEAD
   defaultReferences:
   - player: {instanceID: 0}
   - target: {fileID: 1896092221406666164, guid: 3c47403125001cf43a173e5f446a1f8b, type: 3}
@@ -14,6 +15,9 @@ MonoImporter:
   - targetsHitText: {instanceID: 0}
   - shotsFiredText: {instanceID: 0}
   - accuracyText: {instanceID: 0}
+=======
+  defaultReferences: []
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

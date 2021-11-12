@@ -123,6 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &363981822
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,6 +624,8 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3679188688034285766, guid: ca568276ac4076a4f89f316e3ede0897, type: 3}
   m_PrefabInstance: {fileID: 838296069}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
 --- !u!1 &1019093632
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,7 +707,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 1
+=======
+  m_RootOrder: 0
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1085010853
 PrefabInstance:
@@ -763,6 +770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2405b46fb6f0a4dbf4a951e735146f, type: 3}
+<<<<<<< HEAD
 --- !u!1 &1117061656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,6 +1254,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87e4085e395907a48ba1d6045e6bde12, type: 3}
+=======
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
 --- !u!1001 &1847269455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1257,6 +1267,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneLoader
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 7842009547576707929, guid: c8f760d974804564ab000a33fbf83993, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1264,6 +1275,11 @@ PrefabInstance:
     - target: {fileID: 7842009547576707935, guid: c8f760d974804564ab000a33fbf83993, type: 3}
       propertyPath: m_RootOrder
       value: 0
+=======
+    - target: {fileID: 7842009547576707935, guid: c8f760d974804564ab000a33fbf83993, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
       objectReference: {fileID: 0}
     - target: {fileID: 7842009547576707935, guid: c8f760d974804564ab000a33fbf83993, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1307,6 +1323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8f760d974804564ab000a33fbf83993, type: 3}
+<<<<<<< HEAD
 --- !u!114 &1847269456 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3310248412581631214, guid: c8f760d974804564ab000a33fbf83993, type: 3}
@@ -1476,3 +1493,5 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144230500}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57

@@ -206,6 +206,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &295425317 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5085108893244185607, guid: bb599982dafa8ae458e682f24329a81c, type: 3}
@@ -432,6 +433,8 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8075596475783095411, guid: 10466bef0c793964b97a105eed467112, type: 3}
   m_PrefabInstance: {fileID: 8075596475938490382}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
 --- !u!1001 &1122275655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -443,10 +446,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneLoader
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 7842009547576707929, guid: c8f760d974804564ab000a33fbf83993, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
     - target: {fileID: 7842009547576707935, guid: c8f760d974804564ab000a33fbf83993, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -493,6 +499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8f760d974804564ab000a33fbf83993, type: 3}
+<<<<<<< HEAD
 --- !u!1 &1177366533
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,3 +1073,5 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb8c248e43623e54a98df3a2966ffc22, type: 3}
+=======
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57

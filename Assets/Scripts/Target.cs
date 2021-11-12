@@ -9,9 +9,13 @@ public class Target : MonoBehaviour
 
     void Start()
     {
+<<<<<<< HEAD
         if(GameControl.playerLives<=0){
             Destroy(gameObject);
         }
+=======
+        
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
         Destroy(gameObject, 1f);
         GameControl.userMiss = 1;
     }

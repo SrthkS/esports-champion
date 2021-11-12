@@ -12,9 +12,15 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
+<<<<<<< HEAD
   companyName: BestLH2Team
   productName: Esports Champion
   defaultCursor: {fileID: 0}
+=======
+  companyName: DefaultCompany
+  productName: Esports Champion
+  defaultCursor: {fileID: 2800000, guid: e75a6629c6b29db4dba20de285d1d314, type: 3}
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -152,8 +158,12 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
+<<<<<<< HEAD
   applicationIdentifier:
     Standalone: com.BestLH2Team.EsportsChampion
+=======
+  applicationIdentifier: {}
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -570,8 +580,12 @@ PlayerSettings:
   scriptingDefineSymbols: {}
   additionalCompilerArguments: {}
   platformArchitecture: {}
+<<<<<<< HEAD
   scriptingBackend:
     Standalone: 1
+=======
+  scriptingBackend: {}
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}

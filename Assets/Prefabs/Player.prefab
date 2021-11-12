@@ -10,6 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8957351197285421009}
   - component: {fileID: 8098164945350914717}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 2854193677756616367}
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -43,6 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2b060c08c592d247b52671244d286e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   influencePoints: 1419
   skillPoints: 128
   money: 2000
@@ -51,3 +56,21 @@ MonoBehaviour:
   moneyText: {fileID: 6265484996480566763, guid: 367c1fac89a6f60488c5de9a20ba5f68, type: 3}
   nationalWins: 0
   sceneLoader: {fileID: 3310248412581631214, guid: c8f760d974804564ab000a33fbf83993, type: 3}
+=======
+  influencePoints: 0
+  skillPoints: 0
+  money: 0
+  skillText: {fileID: 5710322620868892925, guid: 1de96312b7bf6774e927d34ca1440326, type: 3}
+--- !u!114 &2854193677756616367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8098164945350914718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ded28705d547f4488f65e390aab4557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> a8c047bf365abed148d126d25c71d802df26af57
