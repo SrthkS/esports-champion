@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ca2928f63192a1b4697b2dddd617e29f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player: {instanceID: 0}
+  - target: {fileID: 1896092221406666164, guid: 3c47403125001cf43a173e5f446a1f8b, type: 3}
+  - cursorTexture: {instanceID: 0}
+  - readyText: {instanceID: 0}
+  - playerLivesText: {instanceID: 0}
+  - resultsPanel: {instanceID: 0}
+  - scoreText: {instanceID: 0}
+  - targetsHitText: {instanceID: 0}
+  - shotsFiredText: {instanceID: 0}
+  - accuracyText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
